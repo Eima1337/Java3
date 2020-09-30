@@ -9,6 +9,10 @@ class Goods {
         this.price = price;
     }
 
+    public Goods() {
+
+    }
+
     public String getName() {
         return name;
     }
