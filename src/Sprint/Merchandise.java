@@ -2,11 +2,13 @@ package Sprint;
 
 class Goods {
     private String name;
-    private int price;
+    private double price;
+    private int quantity;
 
-    public Goods(String name, int price) {
+    public Goods(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
+        this.quantity = quantity;
     }
 
     public Goods() {
@@ -21,7 +23,7 @@ class Goods {
         this.name = name;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
@@ -29,11 +31,16 @@ class Goods {
         this.price = price;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
     @Override
     public String toString() {
-        return "{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return name + "; " + price + "; " + quantity;
     }
 }
