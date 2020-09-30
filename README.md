@@ -1,0 +1,5 @@
+# Java SPRINT 3
+## Very simple shop with Java:
+### How to start: 1) Clone repository from github. 2) Open my project with intellij or other software that you use to code and click run program button. 3) Program takes users input to do tasks from 1-5, menu is displayed in the console, enter from 1 to 5 to do tasks you desire.
+## Explaining menu commands:
+### My task was to create Java program which uses lists to store information into file, reads it and does some functions with it. As I've mentioned before user selects what to do from the menu, so if user selected 1 program will show "Merchandise cart" with goods in it if there are any goods. If the cart is empty program will show empty cart. If user presses 2 he will be able to add whatever merchandise he wants it must contain: name, price and quantity. If user decides that he doesn't want any of his added goods he may remove them by entering 3 in the menu and entering desired merchandise number. Pressing 4 will sort the list from the lowest price to the highest price(price * quantity). If user wishes to exit program he should enter 5.
