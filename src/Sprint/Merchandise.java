@@ -1,6 +1,6 @@
 package Sprint;
 
-class Goods {
+class Goods implements Comparable<Goods> {
     private String name;
     private double price;
     private int quantity;
@@ -42,5 +42,14 @@ class Goods {
     @Override
     public String toString() {
         return name + "; " + price + "; " + quantity;
+    }
+
+    @Override
+    public int compareTo(Goods o) {
+        if((this.price * this.quantity) > (o.price * o.quantity)) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 }
