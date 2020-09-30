@@ -1,3 +1,4 @@
 obuoliai; 3.5; 20
 kriauses; 3.5; 5
 obuoliai; 100.0; 100
+braskes; 3.0; 20

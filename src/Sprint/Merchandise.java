@@ -46,7 +46,7 @@ class Goods implements Comparable<Goods> {
 
     @Override
     public int compareTo(Goods o) {
-        if((this.price * this.quantity) > (o.price * o.quantity)) {
+        if ((this.price * this.quantity) > (o.price * o.quantity)) {
             return 1;
         } else {
             return -1;
